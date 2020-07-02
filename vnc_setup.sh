@@ -72,16 +72,6 @@ apt-get install -y supervisor xfce4 xfce4-terminal xterm
 apt-get purge -y pm-utils xscreensaver*
 apt-get clean -y
 
-# Setup xfce4 startup
-echo -e "\n------------------ startup of Xfce4 window manager ------------------"
-
-### disable screensaver and power management
-xset -dpms &
-xset s noblank &
-xset s off &
-
-sleep 1
-
 
 
 
