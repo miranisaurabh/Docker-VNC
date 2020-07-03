@@ -64,3 +64,5 @@ NOTE: Change the ENV variable `$VNC_PW` to change the password
 
 - [ ] Add NoVNC support
 - [ ] Remove unwanted installation
+
+Adapted from consol/ubuntu-xfce-vnc docker container
