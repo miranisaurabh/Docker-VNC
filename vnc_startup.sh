@@ -44,7 +44,7 @@ echo -e "start vncserver with param: VNC_COL_DEPTH=$VNC_COL_DEPTH, VNC_RESOLUTIO
 if [[ $DEBUG == true ]]; then echo "vncserver $DISPLAY -depth $VNC_COL_DEPTH -geometry $VNC_RESOLUTION"; fi
 vncserver $DISPLAY -depth $VNC_COL_DEPTH -geometry $VNC_RESOLUTION
 echo -e "start window manager\n..."
-./Docker-VNC/wm_startup.sh
+./wm_startup.sh
 
 ## log connect options
 echo -e "\n\n------------------ VNC environment started ------------------"
