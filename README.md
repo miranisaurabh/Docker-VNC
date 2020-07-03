@@ -46,8 +46,14 @@ $ cd Docker-VNC
 $ chmod a+x run_all_scripts.sh
 $ ./run_all_scripts.sh
 ```
-If the docker container is on local machine, then connect use the ip address printed after completing the above steps
-If the docker container is on remote machine, then get the ip using,
+If the docker container is on local machine, then connect using the ip address printed after completing the above steps
+
+```
+VNCSERVER started on DISPLAY= :1 
+	=> connect via VNC viewer with IP:5901
+```
+
+If the docker container is on remote machine, then get the ip (public) using,
 ```
 $ wget http://ipinfo.io/ip -qO -
 ```
