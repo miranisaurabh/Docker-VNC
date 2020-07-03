@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-chmod -R a+x . 
+chmod -R a+x *.sh
 ./tools.sh
 ./install_custom_fonts.sh
 ./tigervnc.sh
